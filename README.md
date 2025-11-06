@@ -8,3 +8,6 @@ The primary objective is to enable administrators to monitor their platforms fro
 - Alerting on Token Expiry: Provides custom alerting options for token expiration, overcoming the limitations of non-configurable default alerting in Splunk Observability.
 - Monitoring Synthetic Status: Offers visibility into the health and performance of synthetic monitoring.
 - Change Auditing: Simplifies the process of retrieving and auditing changes to objects within Splunk Observability, making this data point readily accessible.
+
+## How to build
+- When a new commit is made, the Github action will package and build the app using the latest UCC version
