@@ -31,7 +31,7 @@ jobs:
       # Step 3: Build the Add-On
       - name: Build Add-On
         run: |
-          ucc-gen build -v --ta-version 1.2.0
+          ucc-gen build -v --ta-version 1.2.3
 
       # Step 4: Package the Add-On
       - name: Package the Add-On
@@ -45,6 +45,6 @@ jobs:
           git fetch
           git checkout -b build-output
           git add -f output
-          git add -f observability_admin_TA-1.2.0.tar.gz
+          git add -f observability_admin_TA-1.2.3.tar.gz
           git commit -m "Add built files from workflow"
           git push origin build-output --force
