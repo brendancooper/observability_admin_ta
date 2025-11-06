@@ -3,7 +3,7 @@ name: Build and Push Splunk Add-On
 on:
   push:
     branches:
-      - main
+      - '**'
       
 permissions:
   contents: write
