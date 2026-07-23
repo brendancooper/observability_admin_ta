@@ -350,11 +350,10 @@
         "restRoot": "observability_admin_TA",
         "version": "1.2.3",
         "displayName": "O11y (Splunk Observability) TA",
-        "schemaVersion": "0.0.9",
+        "schemaVersion": "0.0.10",
         "supportedThemes": [
             "light",
             "dark"
-        ],
-        "_uccVersion": "6.5.2"
+        ]
     }
 }
