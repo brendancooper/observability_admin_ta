@@ -348,7 +348,7 @@
     "meta": {
         "name": "observability_admin_TA",
         "restRoot": "observability_admin_TA",
-        "version": "1.2.3",
+        "version": "1.2.4",
         "displayName": "O11y (Splunk Observability) TA",
         "schemaVersion": "0.0.10",
         "supportedThemes": [
